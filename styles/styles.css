@@ -4,15 +4,14 @@
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
+    height: 100vh;
     display: grid;
     grid-template-columns: 3fr 10fr;
     grid-template-rows: 3fr 10fr;
 }
+
+
 
 #sidebar {
     background-color: cornflowerblue;
@@ -22,6 +21,27 @@ body {
     grid-template-rows: 2fr 4fr 4fr;
 }
 
+#sidebar .dashboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#sidebar .dashboard svg {
+    height: 5em;
+    fill: white;
+}
+
+#sidebar .dashboard p {
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+    justify-self: start;
+}
+
+
+
 #header {
     background-color: whitesmoke;
     grid-column: 2;
@@ -29,6 +49,8 @@ body {
     display: grid;
     grid-template-columns: 6fr 3fr;
 }
+
+
 
 #main-content {
     background-color: gray;
