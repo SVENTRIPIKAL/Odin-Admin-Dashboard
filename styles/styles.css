@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-#screen-container {
-    height: 100vh;
+html, body {
+    height: 100%;
+}
+
+body {
     display: grid;
     grid-template-columns: 3fr 10fr;
     grid-template-rows: 3fr 10fr;
