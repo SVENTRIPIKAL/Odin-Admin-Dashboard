@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#screen-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    grid-template-rows: 3fr 10fr;
+}
+
+#sidebar {
+    background-color: cornflowerblue;
+    grid-column: 1;
+    grid-row: 1/span 2
+}
+
+#header {
+    background-color: whitesmoke;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#main-content {
+    background-color: gray;
+    grid-column: 2;
+    grid-row: 2;
+}
