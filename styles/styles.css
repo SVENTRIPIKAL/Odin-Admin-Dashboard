@@ -105,17 +105,24 @@ body {
 }
 
 /* search section */
-#header .search-bar {
+#header .search {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 8fr;
+    align-items: center;
 }
 
-#header .search-bar .icon {
-    background-color: red;
+#header .search svg {
+    height: 2em;
+    justify-self: end;
 }
 
-#header .search-bar .search {
-    background-color: blue;
+#header .search .search-bar {
+    height: 2.5em;
+    width: 95%;
+    margin-left: 25px;
+    background-color: #DFE6EE;
+    border-radius: 30px;
+    border: none;
 }
 
 
@@ -133,8 +140,8 @@ body {
 
 /* 
         [COLORS]
-    BLUE:       #1B8ECC
-    MYSTIC:     #DFE6EE
-    DOVE_GRAY:  #646262
-    TULIP_TREE: #E2AF31
+    BLUE:       #1B8ECC (blue)
+    MYSTIC:     #DFE6EE (gray)
+    DOVE_GRAY:  #646262 (dark gray)
+    TULIP_TREE: #E2AF31 (orange)
  */
