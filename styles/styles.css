@@ -107,7 +107,7 @@ body {
 /* search section */
 #header .search {
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 9fr;
     align-items: center;
 }
 
@@ -118,7 +118,7 @@ body {
 
 #header .search .search-bar {
     height: 2em;
-    width: 95%;
+    width: 90%;
     margin-left: 25px;
     background-color: #DFE6EE;
     border-radius: 30px;
@@ -127,6 +127,27 @@ body {
     font-size: large;
 }
 
+/* username section */
+#header .username {
+    display: grid;
+    grid-template-columns: 0.5fr 0.1fr 1fr;
+    align-items: center;
+    column-gap: 2em;
+}
+
+#header .username svg {
+    height: 2em;
+    justify-self: end;
+}
+
+#header .username img {
+    height: 3.5em;
+    justify-self: center;
+}
+
+#header .username p {
+    font-size: 21px;
+}
 
 
 /* MAIN-CONTENT */
@@ -147,3 +168,12 @@ body {
     DOVE_GRAY:  #646262 (dark gray)
     TULIP_TREE: #E2AF31 (orange)
  */
+ 
+ /*     [REFERENCES]
+    
+    <a href="https://www.flaticon.com/free-stickers/luck" title="luck stickers">Luck stickers created by Stickers - Flaticon</a>
+    
+    <a href="https://www.flaticon.com/free-stickers/amulet" title="amulet stickers">Amulet stickers created by Stickers - Flaticon</a>
+    
+    <a href="https://www.flaticon.com/free-stickers/japanese" title="japanese stickers">Japanese stickers created by Stickers - Flaticon</a>
+  */
