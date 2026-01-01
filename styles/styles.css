@@ -117,12 +117,14 @@ body {
 }
 
 #header .search .search-bar {
-    height: 2.5em;
+    height: 2em;
     width: 95%;
     margin-left: 25px;
     background-color: #DFE6EE;
     border-radius: 30px;
     border: none;
+    padding-inline: 20px;
+    font-size: large;
 }
 
 
