@@ -94,7 +94,6 @@ body {
 }
 
 
-
 /* HEADER */
 #header {
     background-color: whitesmoke;
@@ -147,6 +146,23 @@ body {
 
 #header .username p {
     font-size: 21px;
+}
+
+/* greetings section */
+#header .greetings {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    column-gap: 2em;
+}
+
+#header .greetings img {
+    height: 6em;
+    justify-self: right;
+}
+
+#header .greetings .text .text-2 {
+    font-size: 1.5em;
 }
 
 
