@@ -106,7 +106,7 @@ body {
 /* search section */
 #header .search {
     display: grid;
-    grid-template-columns: 1fr 9fr;
+    grid-template-columns: 0.10fr 1fr;
     align-items: center;
 }
 
@@ -117,7 +117,7 @@ body {
 
 #header .search .search-bar {
     height: 2em;
-    width: 90%;
+    width: 94%;
     margin-left: 25px;
     background-color: #DFE6EE;
     border-radius: 30px;
@@ -151,7 +151,7 @@ body {
 /* greetings section */
 #header .greetings {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 0.18fr 1fr;
     align-items: center;
     column-gap: 2em;
 }
@@ -159,11 +159,33 @@ body {
 #header .greetings img {
     height: 6em;
     justify-self: right;
+    margin-inline-start: 1em;
 }
 
 #header .greetings .text .text-2 {
     font-size: 1.5em;
 }
+
+/* upload-buttons section */
+#header .upload-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 0.25fr);
+    align-items: center;
+    justify-items: center;
+    column-gap: 1em;
+    margin-inline: 1em;
+}
+
+#header .upload-buttons button {
+    padding-block: 1em;
+    width: 8em;
+    background-color: #1B8ECC;
+    color: white;
+    border-radius: 2em;
+    font-size: 1em;
+    border: none;
+}
+
 
 
 /* MAIN-CONTENT */
