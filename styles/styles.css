@@ -247,6 +247,17 @@ body {
     color: #646262;
 }
 
+#main-content .card-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+    padding-inline: 2em;
+}
+
+#main-content .card-icons svg {
+    height: 3em;
+}
 
 
 /* 
