@@ -173,7 +173,7 @@ body {
     align-items: center;
     justify-items: center;
     column-gap: 1em;
-    margin-inline: 1em;
+    margin-inline: 2em;
 }
 
 #header .upload-buttons button {
