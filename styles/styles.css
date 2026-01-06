@@ -194,7 +194,7 @@ body {
     grid-column: 2;
     grid-row: 2;
     display: grid;
-    grid-template-columns: 2fr 0.65fr;
+    grid-template-columns: 2fr 0.70fr;
     grid-template-rows: 0.8fr 10fr;
     column-gap: 1em;
     row-gap: 1em;
