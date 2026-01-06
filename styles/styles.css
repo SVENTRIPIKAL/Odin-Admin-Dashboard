@@ -240,12 +240,12 @@ body {
     align-content: center;
 }
 
-#main-content .card-text .title {
+#main-content .title {
     font-size: 1.3em;
     padding-block-end: 0.3em;
 }
 
-#main-content .card-text .description {
+#main-content .description {
     font-weight: normal;
     color: #646262;
 }
@@ -261,6 +261,45 @@ body {
 #main-content .card-icons svg {
     height: 2.5em;
 }
+
+/* announcement section */
+#main-content .announcement-section {
+    display: grid;
+    grid-template-rows: 1fr 0.18fr 1fr;
+    padding-inline-end: 1.5em;
+}
+
+#main-content .announcement-section .announcement-cards {
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr .01fr) 1fr;
+    padding: 2em;
+    row-gap: 1em;
+}
+
+#main-content .announcement-cards .card {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content .announcement-cards .title {
+    font-size: 1em;
+}
+
+#main-content .announcement-cards .description {
+    font-size: 0.85em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+#main-content .announcement-cards .grid-line {
+    background-color: #646262;
+}
+
+/* trending section */
 
 
 /* 
