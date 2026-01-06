@@ -239,6 +239,7 @@ body {
 
 #main-content .card-text .title {
     font-size: 1.3em;
+    padding-block-end: 0.3em;
 }
 
 #main-content .card-text .description {
