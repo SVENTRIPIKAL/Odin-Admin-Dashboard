@@ -207,6 +207,45 @@ body {
     font-size: 1.5em;
 }
 
+/* project cards section */
+#main-content .project-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#main-content .card {
+    display: grid;
+    grid-template-columns: 0.1fr 6fr;
+    border-radius: 0.5em;
+    background-color: whitesmoke;
+}
+
+#main-content .card-line-color {
+    background-color: #E2AF31;
+    /* apply border radius to both left-corners */
+    border-radius: 0.5em 0 0 0.5em; 
+}
+
+#main-content .card-content {
+    padding: 1em;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+}
+
+#main-content .card-content .card-text {
+    align-content: center;
+}
+
+#main-content .card-text .title {
+    font-size: 1.3em;
+}
+
+#main-content .card-text .description {
+    font-weight: normal;
+    color: #646262;
+}
+
 
 
 /* 
