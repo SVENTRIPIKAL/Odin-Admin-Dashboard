@@ -198,7 +198,8 @@ body {
     grid-template-rows: 0.8fr 10fr;
     column-gap: 1em;
     row-gap: 1em;
-    padding-inline-start: 2em;
+    padding-inline: 1.5em;
+    padding-block-end: 4em;
 }
 
 /* projects/announcement headers */
@@ -212,6 +213,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    row-gap: 1.5em;
+    column-gap: 1.5em;
 }
 
 #main-content .card {
