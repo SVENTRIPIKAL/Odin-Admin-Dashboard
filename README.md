@@ -1,6 +1,6 @@
 # Odin-Admin-Dashboard
 
-An example user admin dashboard designed primarily using Grid Layout and built for the _[The Odin Project](https://www.theodinproject.com/about)_
+An example user Admin Dashboard designed primarily using Grid Layout and built for the _[The Odin Project](https://www.theodinproject.com/about)_
 
 
 ## Example
