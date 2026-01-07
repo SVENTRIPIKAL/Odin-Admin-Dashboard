@@ -140,7 +140,7 @@ body {
 /* username section */
 #header .username {
     display: grid;
-    grid-template-columns: 1.5fr 1.1fr 4fr;
+    grid-template-columns: 2fr 1fr 3fr;
     align-items: center;
     column-gap: 2em;
 }
@@ -187,8 +187,8 @@ body {
     grid-template-columns: repeat(3, 0.25fr);
     align-items: center;
     justify-items: center;
-    column-gap: 1em;
-    margin-inline: 2em;
+    column-gap: 2em;
+    margin-inline: 3em;
 }
 
 #header .upload-buttons button {
@@ -197,7 +197,7 @@ body {
     background-color: #1B8ECC;
     color: white;
     border-radius: 2em;
-    font-size: 1em;
+    font-size: 1.1em;
     border: none;
 }
 
