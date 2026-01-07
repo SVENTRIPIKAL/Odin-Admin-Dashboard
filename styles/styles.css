@@ -178,10 +178,13 @@ img {
     margin-block-end: 1em;
 }
 
+#header .greetings .text .text-1 {
+    padding-block-end: 0.5em;
+}
+
 #header .greetings .text .text-2 {
     font-size: 1.5em;
 }
-
 
 
 /* upload-buttons section */
