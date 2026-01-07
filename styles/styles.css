@@ -18,8 +18,8 @@
 body {
     height: 100vh;
     display: grid;
-    grid-template-columns: 3fr 10fr;
-    grid-template-rows: 3fr 10fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
 }
 
 
@@ -32,6 +32,8 @@ body {
     display: grid;
     grid-template-rows: 1fr 4fr 4fr;
 }
+
+
 
 /* dashboard section */
 #sidebar .dashboard {
@@ -51,6 +53,8 @@ body {
     font-size: 2em;
     justify-self: start;
 }
+
+
 
 /* home section */
 #sidebar .home {
@@ -72,6 +76,8 @@ body {
     justify-self: start;
 }
 
+
+
 /* settings section */
 #sidebar .settings {
     display: grid;
@@ -79,7 +85,7 @@ body {
     grid-template-rows: repeat(6, 1fr);
     align-items: center;
     justify-items: center;
-    margin-top: 20px;
+    margin-top: 1em;
 }
 
 #sidebar .settings svg {
@@ -94,14 +100,17 @@ body {
 }
 
 
+
 /* HEADER */
 #header {
     background-color: whitesmoke;
     grid-column: 2;
     grid-row: 1;
     display: grid;
-    grid-template-columns: 6fr 3fr;
+    grid-template-columns: 2fr 1fr;
 }
+
+
 
 /* search section */
 #header .search {
@@ -118,18 +127,20 @@ body {
 #header .search .search-bar {
     height: 2em;
     width: 94%;
-    margin-left: 25px;
+    margin-left: 1.5em;
     background-color: #DFE6EE;
-    border-radius: 30px;
+    border-radius: 1em;
     border: none;
-    padding-inline: 20px;
+    padding-inline: 1em;
     font-size: large;
 }
+
+
 
 /* username section */
 #header .username {
     display: grid;
-    grid-template-columns: 0.5fr 0.1fr 1fr;
+    grid-template-columns: 1.5fr 1.1fr 4fr;
     align-items: center;
     column-gap: 2em;
 }
@@ -145,13 +156,15 @@ body {
 }
 
 #header .username p {
-    font-size: 21px;
+    font-size: 1.3em;
 }
+
+
 
 /* greetings section */
 #header .greetings {
     display: grid;
-    grid-template-columns: 0.18fr 1fr;
+    grid-template-columns: 0.17fr 1fr;
     align-items: center;
     column-gap: 2em;
 }
@@ -165,6 +178,8 @@ body {
 #header .greetings .text .text-2 {
     font-size: 1.5em;
 }
+
+
 
 /* upload-buttons section */
 #header .upload-buttons {
@@ -202,11 +217,15 @@ body {
     padding-block-end: 4em;
 }
 
+
+
 /* projects/announcement headers */
 #main-content .sub-header {
     align-content: end;
     font-size: 1.5em;
 }
+
+
 
 /* project cards section */
 #main-content .project-cards {
@@ -262,6 +281,8 @@ body {
     height: 2.5em;
 }
 
+
+
 /* announcement section */
 #main-content .announcement-section {
     display: grid;
@@ -299,8 +320,12 @@ body {
     background-color: lightgray;
 }
 
-/* trending section */
 
+
+/* trending section */
+/*#main-content .trending-card {
+    
+}*/
 
 /* 
         [COLORS]
