@@ -22,6 +22,11 @@ body {
     grid-template-rows: 1fr 4fr;
 }
 
+img {
+    height: 4em;
+    justify-self: center;
+}
+
 
 
 /* SIDEBAR */
@@ -107,7 +112,8 @@ body {
     grid-column: 2;
     grid-row: 1;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.2fr 0.8fr;
+    padding-inline-start: 1em;
 }
 
 
@@ -115,7 +121,7 @@ body {
 /* search section */
 #header .search {
     display: grid;
-    grid-template-columns: 0.10fr 1fr;
+    grid-template-columns: 0.1fr 1fr;
     align-items: center;
 }
 
@@ -150,11 +156,6 @@ body {
     justify-self: end;
 }
 
-#header .username img {
-    height: 3.5em;
-    justify-self: center;
-}
-
 #header .username p {
     font-size: 1.3em;
 }
@@ -173,6 +174,7 @@ body {
     height: 6em;
     justify-self: right;
     margin-inline-start: 1em;
+    margin-block-end: 1em;
 }
 
 #header .greetings .text .text-2 {
@@ -288,6 +290,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 0.18fr 1fr;
     padding-inline-end: 1.5em;
+    row-gap: 1em;
 }
 
 #main-content .announcement-section .announcement-cards {
@@ -299,12 +302,12 @@ body {
     row-gap: 1em;
 }
 
-#main-content .announcement-cards .card {
+#main-content .announcement-section .card {
     display: flex;
     flex-direction: column;
 }
 
-#main-content .announcement-cards .title {
+#main-content .announcement-section .title {
     font-size: 1em;
 }
 
@@ -323,9 +326,23 @@ body {
 
 
 /* trending section */
-/*#main-content .trending-card {
-    
-}*/
+#main-content .trending-card {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 0.3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+#main-content .trending-card .card {
+    justify-self: left;
+    padding-inline: 1em;
+}
+
+
 
 /* 
         [COLORS]
