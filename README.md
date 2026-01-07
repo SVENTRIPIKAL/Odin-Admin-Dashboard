@@ -14,6 +14,8 @@ An example user Admin Dashboard designed primarily using Grid Layout and built f
 
 - <a href="https://www.flaticon.com/free-stickers/japanese" title="japanese stickers">Japanese stickers created by Stickers - Flaticon</a>
 
+- <a href="https://pictogrammers.com/library/mdi/" title="material design icons">Pictogrammers: Open-source iconography for designers and developers</a>
+
 
 ## Inspiration
 The _[Project: Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) (Intermediate HTML & CSS)_ is part of _[The Odin Project: Full Stack Javascript](https://www.theodinproject.com/paths/full-stack-javascript)_ Curriculum
